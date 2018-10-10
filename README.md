@@ -1,57 +1,61 @@
-# Project Name
+---
+services: Resources
+platforms: dotnet
+author: seyadava
+---
 
-(short, 1-3 sentenced, description of the project)
+# Getting Started with Resources - Manage Resource Groups in Hybrid Environment by using Certificates for Authentication - in C# asynchronously #  
+This sample is very similar to [hybrid-resources-dotnet-manage-resource-group](https://github.com/Azure-Samples/hybrid-resources-dotnet-manage-resource-group) sample except that it uses certificates for authentication.
 
-## Features
+Azure Stack resource sample for managing resource groups - 
+- Create a resource group
+- Update a resource group
+- Create another resource group
+- List resource groups
+- Delete a resource group
 
-This project framework provides the following features:
+## Running this sample ##
 
-* Feature 1
-* Feature 2
-* ...
+To run this sample:
 
-## Getting Started
+1. Clone the repository using the following command:
 
-### Prerequisites
+    git clone https://github.com/Azure-Samples/hybrid-resources-dotnet-manage-resource-group.git
 
-(ideally very short, if any)
+2. Create an Azure service principal and assign a role to access the subscription. For instructions on creating a service principal in Azure Stack, see [Use Azure PowerShell to create a service principal with a certificate](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-create-service-principals). 
 
-- OS
-- Library version
-- ...
+3. Export the service principal certificate as a pfx file.  
 
-### Installation
+3. Set the following required environment variable values:
 
-(ideally very short)
+    * AZURE_TENANT_ID
 
-- npm install [package name]
-- mvn install
-- ...
+    * AZURE_CLIENT_ID
 
-### Quickstart
-(Add steps to get up and running quickly)
+    * AZURE_CERT_SECRET
 
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+    * AZURE_CERT_PATH
 
+    * AZURE_SUBSCRIPTION_ID
 
-## Demo
+    * ARM_ENDPOINT
 
-A demo app is included to show how to use the project.
+    * RESOURCE_LOCATION
 
-To run the demo, follow these steps:
+4. Change directory to sample:
 
-(Add steps to start up the demo)
+    * cd hybrid-resources-dotnet-manage-resource-group-certificate
 
-1.
-2.
-3.
+5. Run the sample:
 
-## Resources
+    dotnet restore
 
-(Any additional resources or related projects)
+    dotnet run
 
-- Link to supporting information
-- Link to similar sample
-- ...
+## More information ##
+
+[Azure .Net Developer Center](https://azure.microsoft.com/en-us/develop/net/)
+
+---
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
