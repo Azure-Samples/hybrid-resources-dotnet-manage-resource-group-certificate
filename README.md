@@ -26,7 +26,7 @@ To run this sample:
 
 3. Export the service principal certificate as a pfx file.  
 
-3. Set the following required environment variable values:
+4. Set the following required environment variable values:
 
     * AZURE_TENANT_ID
 
@@ -42,11 +42,11 @@ To run this sample:
 
     * RESOURCE_LOCATION
 
-4. Change directory to sample:
+5. Change directory to sample:
 
     * cd hybrid-resources-dotnet-manage-resource-group-certificate
 
-5. Run the sample:
+6. Run the sample:
 
     dotnet restore
 
