@@ -4,7 +4,7 @@ platforms: dotnet
 author: seyadava
 ---
 
-# Getting Started with Resources - Manage Resource Groups in Hybrid Environment by using Certificates for Authentication - in C# asynchronously #  
+## Getting Started with Resources - Manage Resource Groups in Hybrid Environment by using Certificates for Authentication - in C# asynchronously ##  
 This sample is very similar to [hybrid-resources-dotnet-manage-resource-group](https://github.com/Azure-Samples/hybrid-resources-dotnet-manage-resource-group) sample except that it uses certificates for authentication.
 
 Azure Stack resource sample for managing resource groups - 
