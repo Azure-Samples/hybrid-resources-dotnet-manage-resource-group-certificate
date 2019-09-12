@@ -1,13 +1,11 @@
 ---
-topic: sample
+page_type: sample
 languages:
- - dotnet
- - csharp
+- javascript
 products:
- - azure-sdks
-services: Azure-Stack
-platforms: dotnet
-author: seyadava
+- azure
+description: "This sample is very similar to hybrid-resources-dotnet-manage-resource-group sample except that it uses certificates for authentication."
+urlFragment: hybrid-resources-dotnet-manage-resource-group-certificate
 ---
 
 # Hybrid-Resources-DotNET-Manage-ResourceGroupCertificate #  
