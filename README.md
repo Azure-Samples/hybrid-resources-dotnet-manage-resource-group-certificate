@@ -8,7 +8,8 @@ description: "This sample is very similar to hybrid-resources-dotnet-manage-reso
 urlFragment: hybrid-resources-dotnet-manage-resource-group-certificate
 ---
 
-# Hybrid-Resources-DotNET-Manage-ResourceGroupCertificate #  
+# Hybrid-Resources-DotNET-Manage-ResourceGroupCertificate
+
 This sample is very similar to [hybrid-resources-dotnet-manage-resource-group](https://github.com/Azure-Samples/hybrid-resources-dotnet-manage-resource-group) sample except that it uses certificates for authentication.
 
 Azure Stack resource sample for managing resource groups - 
@@ -18,7 +19,7 @@ Azure Stack resource sample for managing resource groups -
 - List resource groups
 - Delete a resource group
 
-## Running this sample ##
+## Running this sample
 
 To run this sample:
 
@@ -56,10 +57,8 @@ To run this sample:
 
     dotnet run
 
-## More information ##
+## More information
 
-[Azure .Net Developer Center](https://azure.microsoft.com/en-us/develop/net/)
-
----
+[Azure .Net Developer Center](https://azure.microsoft.com/develop/net/).
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
