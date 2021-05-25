@@ -139,13 +139,13 @@
 
         static void Main(string[] args)
         {
-            //Set variables
-            var location = Environment.GetEnvironmentVariable("RESOURCE_LOCATION");
-            var baseUriString = Environment.GetEnvironmentVariable("ARM_ENDPOINT");
-            var servicePrincipalId = Environment.GetEnvironmentVariable("AZURE_CLIENT_ID");
-            var servicePrincipalSecret = Environment.GetEnvironmentVariable("AZURE_CERT_SECRET");
-            var certificatePath = Environment.GetEnvironmentVariable("AZURE_CERT_PATH");
+            // Get variables
+            var baseUriString = Environment.GetEnvironmentVariable("AZURE_ARM_ENDPOINT");
+            var location = Environment.GetEnvironmentVariable("AZURE_LOCATION");
             var tenantId = Environment.GetEnvironmentVariable("AZURE_TENANT_ID");
+            var servicePrincipalId = Environment.GetEnvironmentVariable("AZURE_SP_CERT_ID");
+            var servicePrincipalSecret = Environment.GetEnvironmentVariable("AZURE_SP_CERT_PASS");
+            var certificatePath = Environment.GetEnvironmentVariable("AZURE_SP_CERT_PATH");
             var subscriptionId = Environment.GetEnvironmentVariable("AZURE_SUBSCRIPTION_ID");
 
             runSample(tenantId, subscriptionId, servicePrincipalId, servicePrincipalSecret, location, baseUriString, certificatePath);
